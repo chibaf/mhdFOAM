@@ -1,0 +1,43 @@
+
+postProcess has been superseded and replaced by the more general foamPostProcess
+utility which will be executed instead:
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  dev
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : dev-84333c37c7aa
+Exec   : foamPostProcess -func sample
+Date   : Sep 02 2026
+Time   : 15:54:00
+Host   : "517pc"
+PID    : 452842
+I/O    : uncollated
+Case   : /home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdFoam/hartmann
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+Constructing functionObjects from system/functions
+    Selecting sets with name sample
+        Reading set description:
+            line_centreProfile
+Time = 0s
+
+Reading fields:
+    volScalarFields: Ux
+
+Executing functionObjects
+
+End
+

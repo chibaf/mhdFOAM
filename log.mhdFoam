@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  dev
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : dev-84333c37c7aa
+Exec   : mhdFoam
+Date   : Sep 02 2026
+Time   : 15:54:00
+Host   : "517pc"
+PID    : 452838
+I/O    : uncollated
+Case   : /home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdFoam/hartmann
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading physicalProperties
+
+
+
+--> FOAM FATAL IO ERROR: 
+keyword rho is undefined in dictionary "/home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdFoam/hartmann/constant/physicalProperties"
+
+file: /home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdFoam/hartmann/constant/physicalProperties from line 18 to 20.
+
+    From function const Foam::entry& Foam::dictionary::lookupEntry(const Foam::word&, bool, bool) const
+    in file db/dictionary/dictionary.C at line 636.
+
+FOAM exiting
+
