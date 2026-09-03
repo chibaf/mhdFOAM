@@ -3,7 +3,6 @@
 ## error message<log.mhdFoam>
 <ul>
 Reading physicalProperties<br>
-<br>
 <br>  
 --> FOAM FATAL ERROR:<br>   
 cannot find file "/home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdFoam/hartmann/constant/physicalProperties"<br>
@@ -11,7 +10,7 @@ cannot find file "/home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdF
     From function virtual Foam::autoPtr<Foam::ISstream> Foam::fileOperations::uncollatedFileOperation::readStream(Foam::regIOobject&, const Foam::fileName&, const Foam::word&, bool) const  <br>
 <br>    
     in file global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.C at line 538.ｍ<br>
-<br>
+
 <br>  
 FOAM exiting<br>
 </ul>
