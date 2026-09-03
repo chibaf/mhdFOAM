@@ -1,5 +1,6 @@
 # mhdFOAM  
 
+## error message
 <ul>
 Reading physicalProperties<br>
 <br>
