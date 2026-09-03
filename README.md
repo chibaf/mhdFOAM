@@ -1,19 +1,19 @@
 # mhdFOAM  
 
-<
-Reading physicalProperties
-
+<ul>
+Reading physicalProperties<br>
+<br>
+<br>  
+--> FOAM FATAL ERROR:<br>   
+cannot find file "/home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdFoam/hartmann/constant/physicalProperties"<br>
   
---> FOAM FATAL ERROR:   
-cannot find file "/home/chibaf/OpenFOAM/chibaf-dev/run/electromagnetics-of6/mhdFoam/hartmann/constant/physicalProperties"
-  
-    From function virtual Foam::autoPtr<Foam::ISstream> Foam::fileOperations::uncollatedFileOperation::readStream(Foam::regIOobject&, const Foam::fileName&, const Foam::word&, bool) const  
+    From function virtual Foam::autoPtr<Foam::ISstream> Foam::fileOperations::uncollatedFileOperation::readStream(Foam::regIOobject&, const Foam::fileName&, const Foam::word&, bool) const  <br>
     
-    in file global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.C at line 538.ｍ
-
-  
-FOAM exiting
->
+    in file global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.C at line 538.ｍ<br>
+<br>
+<br>  
+FOAM exiting<br>
+</ul>
 
 2.3 Magnetohydrodynamic flow of a liquid  
 https://www.openfoam.com/documentation/tutorial-guide/2-incompressible-flow/2.3-magnetohydrodynamic-flow-of-a-liquid
